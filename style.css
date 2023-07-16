@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #1A237E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+
+}
+#search-box{
+    width: 80vw;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: #283593;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+#card{
+    margin-top: 2vh;
+    background-color:#283593;
+    min-height: 30vh;
+    width: 80vw;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+#image{
+    background-color: #3949AB;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img{
+    border-radius: 50%;
+}
+#right-div{
+width: 70%;
+margin-left: 20px;
+
+}
+
+#right-div h3{
+    margin-top: 5px;
+
+    font-size: 15px;
+}
+#row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.repositories{
+    background-color: #3949AB;
+    width: 80vw;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 8px;
+}
+#repos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
+#repos li{
+    list-style: none;
+    background-color: #1f2b77;
+    padding: 3px 7px;
+    border-radius: 5px;
+    margin: 10px;
+   
+}
+#repos li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
